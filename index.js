@@ -368,7 +368,7 @@ const WeatherApp = () => {
                 <div className="header">
                     <div className="app-title">
                         <i className="fas fa-cloud-sun"></i>
-                        <h1>Weather.io</h1>
+                        <h1>Weather</h1>
                     </div>
                     <p className="subtitle">Get real-time weather updates anywhere</p>
                 </div>
