@@ -21,7 +21,6 @@ body {
     margin: 0 auto;
 }
 
-/* Header */
 .header {
     text-align: center;
     color: white;
@@ -53,7 +52,6 @@ body {
     font-weight: 300;
 }
 
-/* Search Bar */
 .search-bar {
     margin-bottom: 30px;
     animation: slideUp 0.6s ease-out;
@@ -106,8 +104,6 @@ body {
     opacity: 0.7;
     cursor: not-allowed;
 }
-
-/* City Display */
 .city-display {
     text-align: center;
     color: white;
@@ -126,7 +122,6 @@ body {
     opacity: 0.9;
 }
 
-/* Current Weather */
 .current-weather {
     background: #2a2d3a;
     border-radius: 20px;
@@ -180,7 +175,6 @@ body {
     color: #888;
 }
 
-/* Weather Details */
 .weather-details {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -224,7 +218,6 @@ body {
     color: #e0e0e0;
 }
 
-/* Forecast Section */
 .forecast-section {
     background: #2a2d3a;
     border-radius: 20px;
@@ -312,7 +305,6 @@ body {
     gap: 5px;
 }
 
-/* Error Message */
 .error-message {
     background: #ff6b6b;
     color: white;
@@ -330,7 +322,6 @@ body {
     font-size: 18px;
 }
 
-/* Loading State */
 .loading {
     text-align: center;
     padding: 60px 20px;
@@ -351,7 +342,6 @@ body {
     font-size: 16px;
 }
 
-/* Animations */
 @keyframes slideDown {
     from {
         opacity: 0;
@@ -392,7 +382,6 @@ body {
     }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .app-title h1 {
         font-size: 32px;
